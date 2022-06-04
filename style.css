@@ -1,0 +1,40 @@
+body {
+  background: #f1faee;
+}
+/*
+.outer {
+  margin: auto;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #a8dadc;
+  border: 2px solid #1d3557;
+  border-radius: 5%;
+}
+*/
+.parent {
+  margin: 0;
+  position: relative;
+  height: 40rem;
+  width: 40rem;
+  left: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.grid {
+  margin: 0;
+  margin-right: 1rem;
+  background-color: black;
+  height: 9rem;
+  width: 9rem;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
